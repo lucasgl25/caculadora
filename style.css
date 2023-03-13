@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+body{
+    background-image: url(https://i.pinimg.com/originals/4a/21/c8/4a21c86fb37138a24e13ce5fa61b5012.jpg);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+
+h1{
+    background-color: rgba(206, 24, 24, 0.556);
+}
+
+
+
+
+#calculator{
+    max-width: 360px;
+    background-color: rgba(75, 72, 72, 0.427);
+    border-radius: 15px;
+    padding: 15px;
+  
+}
+
+#display{
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 40px;
+    border-radius: 3px;
+    color: rgb(255, 0, 0);
+    background: rgb(255, 255, 255);
+    border: none;
+    box-sizing: border-box;
+    
+
+}
+
+.equal{
+    width: calc(25% - 10px);
+}
+
+button{
+    width: calc(25% - 10px);
+    height: 65px;
+    font-size: 23px;
+    margin: 10px 5px;
+    border: none;
+    float:right;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border-radius: 10px;
+    box-shadow: -1px 1px 10px rgb(0, 0, 0);
+    
+
+
+}
+
+#ac{
+    background:gold;
+    color: rgb(0, 0, 0);
+}
+
+.operator{
+    color:rgb(0, 0, 0) ;
+    background:gold ;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform:scale(1.2);
+    box-shadow: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
